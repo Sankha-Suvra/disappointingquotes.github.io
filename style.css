@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ysabeau SC', sans-serif;
+  color: #FFFFFF;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #000000
+}
+
+.container{
+  height: 400px;
+  width: 400px;
+  border: 5px solid white;
+  border-radius: 20px;
+  box-shadow: 5px 2px 10px #FFFFFF; 
+  box-shadow: -5px -5px 10px #FFFFFF;
+}
+.upper{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px
+}
+.heading{
+   font-size: 30px;
+   margin-left: 5px;
+}
+.lower{
+  height: 300px;
+  border-top: 5px solid white;
+  padding: 20px;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 30px
+}
+#btn{
+  padding: 10px 5px 10px 5px;
+  background-color: transparent ;
+  box-shadow: 2px 2px 10px rgb(56,56,56);
+  cursor: pointer;
+}
+
+@media (max-width: 600px)
+{
+  .container{
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 2px 10px #FFFFFF; 
+    box-shadow: -5px -5px 10px #FFFFFF;
+  }
+
+  .upper{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px
+  }
+
+  #btn{
+    padding: 5px 3px 8px 3px;
+    background-color: transparent ;
+    box-shadow: 2px 2px 10px rgb(56,56,56);
+    cursor: pointer;
+  }
+
+  .lower{
+    height: 300px;
+    border-top: 2px solid white;
+    padding: 20px;
+    padding-top: 45px;
+    text-align: center;
+    font-size: 25px
+
+  }
+  .heading{
+    font-size: 21px;
+    margin-left: 3px;
+    margin-top: 2px;
+ }
+}
